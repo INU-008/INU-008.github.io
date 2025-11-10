@@ -1,12 +1,76 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <body>
-        <link rel="stylesheet" href="stylesheet.css">
-    <title> INU </title>
-      <h1> THe official INU website.</h1>
-      <h5> where you can access all your favorite INU-websites.</h5>
-    
-  </body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Official INU GitHub Page" />
+    <title>INU | GitHub.io</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">INU</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to INU.github.io</h1>
+            <p>This is the personal website and project showcase for INU.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>[Insert a short bio here — who you are, what you do, and what interests you.]</p>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <!-- Example Project -->
+            <div class="project-card">
+                <h3>Project Title</h3>
+                <p>Short description of your project or repository.</p>
+                <a href="[GitHub link]" target="_blank">View on GitHub</a>
+            </div>
+
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- ===== BLOG SECTION ===== -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>[Coming soon — or list your latest articles here]</p>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>[Add your email, social links, or a contact form here]</p>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; <span id="year"></span> INU. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Auto-update the year in footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
 </html>
