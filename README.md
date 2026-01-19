@@ -1,2 +1,2 @@
 # INU-008.github.io
-the INU official website
+the INU-008 official website.
